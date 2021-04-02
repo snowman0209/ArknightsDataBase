@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#151313"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/bt_MR"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#243281"
+        android:text="@string/total_resource"
+        app:layout_constraintBottom_toTopOf="@+id/bt_PR"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_chainStyle="spread" />
+
+    <Button
+        android:id="@+id/bt_PR"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#243281"
+        android:text="@string/personal_registration"
+        app:layout_constraintBottom_toTopOf="@+id/bt_TD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_MR" />
+
+    <Button
+        android:id="@+id/bt_TD"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:backgroundTint="#243281"
+        android:text="@string/to_do"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bt_PR" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="60sp"
+        android:layout_height="60sp"
+        android:layout_marginTop="65dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView2"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/paint_katakana01_a" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="60sp"
+        android:layout_height="60sp"
+        android:layout_marginTop="65dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView3"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/paint_hoka1_06_yokobou" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="60sp"
+        android:layout_height="60sp"
+        android:layout_marginTop="65dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/paint_katakana13_ku" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="60sp"
+        android:layout_height="60sp"
+        android:layout_marginTop="65dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/paint_katakana41_na" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="60sp"
+        android:layout_height="60sp"
+        android:layout_marginTop="65dp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/paint_katakana02_i" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="60sp"
+        android:layout_height="60sp"
+        android:layout_marginTop="65dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/imageView5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/paint_katakana33_tsu" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

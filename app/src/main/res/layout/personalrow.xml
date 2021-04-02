@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/lv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginRight="20dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="9dp" />
+
+    <TextView
+        android:id="@+id/lv_promotion"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/lv_lv"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/lv_sklv"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/lv_sk1lv"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/lv_sk2lv"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/lv_sk3lv"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:text="TextView" />
+</LinearLayout>
